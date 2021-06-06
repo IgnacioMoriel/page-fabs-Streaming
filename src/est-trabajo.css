@@ -1,0 +1,179 @@
+:root {
+    --negro-color: #000000;
+    --blanco-color: #ffffff;
+    --gris-color: #c0c0c0;
+    --fondo-color: #161616;
+    --claro-color: #949494;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* **********************************appWahtsapp */
+#app-whatsapp{
+    bottom: 95px;
+    display: block;
+}
+/* #app-whatsapp i{
+    color: #1ebea5;
+} */
+#app-whatsapp{
+    position: fixed;
+    right: 24px;
+    bottom: 25px;
+    width: 60px;
+    z-index: 1000;
+}
+/*********************************************iconmenu*/
+.navbar-toggler {
+    margin-right: 4vmin;
+}
+
+.navbar-toggler i {
+    border-radius: 10px;
+    color: var(--blanco-color);
+    font-size: 40px;
+}
+
+/***********************************************NAVBAR*/
+
+nav {
+    background-color: var(--negro-color);
+    color: var(--blanco-color);
+}
+
+#logo {
+    color: var(--blanco-color);
+}
+
+nav .container .nav-item a {
+    color: var(--blanco-color);
+    margin: 0vmin 2vmin;
+}
+
+nav .container .nav-item a:hover {
+    color: var(--gris-color);
+    text-decoration: underline;
+}
+/* *******************************espacioado del fixed top */
+.section1{
+    margin-top: 83px;
+}
+.mensaje1{
+    margin: 4vmin 0 0 0;
+    text-align: center;
+}
+.mensaje1 h1{
+    font-weight: 300;
+    
+}
+.mensaje1 h4{
+    font-weight: 300;
+    font-size: 4vmin;
+}
+/********************formulario*/
+.fila{
+    margin-top: 5vmax;
+}
+.formulario input[type="text"],.formulario input[type="number"], .formulario input[type="email"], .formulario input[type="submit"]{
+    padding: 10px;
+
+}
+.formulario input[type="text"]:focus {
+    border: 1px solid var(--negro-color);
+    outline: none;
+    box-shadow: none;
+}
+.formulario input[type="number"]:focus {
+    border: 1px solid var(--negro-color);
+    outline: none;
+    box-shadow: none;
+}
+.formulario input[type="email"]:focus {
+    border: 1px solid var(--negro-color);
+    outline: none;
+    box-shadow: none;
+}
+.full-width {
+    width: 100%;
+}
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	background-color: #1e6;
+    color: #fff;
+    border-radius: 10px;    
+    margin-top: 20px;
+}
+.bad {
+    margin-top: 20px;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	background-color: #a22;
+    color: #fff;
+    border-radius: 10px;
+}
+/*************************IMagen*/
+
+
+/*******************************************footer*/
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 1vmin 15vmin 0vmin 15vmin;
+}
+
+footer span{
+    color: rgb(247, 71, 71);
+    font-weight: bold;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+footer .input-group .input-group-text .flecha {
+    columns: white;
+}
+
+
+footer .column i {
+    color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+.img-fluid{
+    padding-bottom: 10vmin ;
+    margin: 0 5px;
+}
+.col-md-5 h4{
+    color: var(--blanco-color);
+}
+.col-md-2{
+    padding-bottom: 7vmin;
+}
+@media screen and (max-width:767px){
+    .nav-item {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:715px){
+
+}
